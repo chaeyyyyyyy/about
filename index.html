@@ -1,0 +1,198 @@
+<!doctype html>
+<html>
+<head>
+	<title>Exhibition archiving</title>
+	<link href="https://fonts.googleapis.com/css?family=Gothic+A1" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Black+Han+Sans" rel="stylesheet">
+	<style>
+		
+		body{margin: 0 auto;
+			padding: 0;
+			font-family: 'Gothic A1', sans-serif;}
+		body{background: url(bg1.png); background-size: cover; background-attachment:fixed; opacity: 0.9;}
+		section{background: none; padding:50px; background-size: cover; }
+		h1{text-align: center; position: relative; font-size: 1.5em; font-weight: 800;color:red;margin:0;padding:0; text-shadow:#999999 1px 1px 2px;}
+		h2{text-align: center; position: relative; font-family: 'Black Han Sans', sans-serif; font-size: 3em; font-weight: 400; margin:0;padding:0;line-height: 1.3 text-shadow:#999999 1px 1px 2px;}
+		p{text-align:center; width:1000px; margin:auto; line-height: 1.6; font-size:1.5em;padding: 50px; text-shadow:#999999 1px 1px 2px;}
+		.green{background:#033;color:white;}.black{background:black;color:white;}.white{background:white; color:black;}.trans{color:white;}
+
+
+		#header
+		{
+			width: 1920px;
+			height: 100px;
+			z-index: 3;
+		}
+		#header .menu
+		{	width: 800px;
+			height: 100px;
+			margin-left: 1145px;
+			z-index: 2;
+		}
+		.title
+{
+   position: absolute;
+   top: 60px;
+   left: 200px;
+   transform: translate(-50%,-50%);
+   width: 300px;
+   height: 70px;
+   border: 1px solid #000;
+   padding: 20px;
+   box-sizing: border-box;
+   text-align: center;
+   box-shadow: 0 10px 15px rgba(0,0,0,.5);
+   overflow: hidden;
+}
+.title:before
+{
+   content: '';
+   position: absolute;
+   top:0;
+   left: 0;
+   width:100%;
+   height: 100%;
+   background: #000;
+   mix-blend-mode: difference;
+}
+.title:after
+{
+   content: '';
+   position: absolute;
+   top: 0;
+   left: -50%;
+   width: 100%;
+   height: 100%;
+   background: #fff;
+   mix-blend-mode: difference;
+   transition: 2s;}
+.title:hover:after
+{
+   left:50%;
+}
+h4
+{
+   margin: 0 0 40px;
+   font-size: 1.3em;
+   padding: 0;
+   color: #fff;
+}
+.white {height:510%; opacity: 0.9; z-index: -9; position: absolute; top: -20px;}
+
+		ul
+		{
+			margin-top: 20px;
+			display: flex;
+			z-index: 3;
+		}
+		ul li
+		{
+			list-style: none;
+			padding:10px 30px; 
+		}	
+		ul li a
+		{
+			text-decoration: none;
+			text-transform: uppercase;
+			font-size: 1.1em;
+			color: #262626;
+			position: relative;
+		}
+		ul li a:before
+		{content: '';
+		width: 10px;
+		height: 1px;
+		background: black;
+		position: absolute;
+		top: 100%;
+		left:0;
+		transition: .5s;}
+
+		ul li:hover a:before
+		{width:50%;
+		transform: translateX(100%);}
+		 #footer{
+   position: absolute;
+   bottom:-3080px;
+   left: 0px;
+   width: 100%;
+}
+h5 {
+   margin: 0;
+   padding: 0;
+   font-size: 0.5em
+}
+#footer2{
+   position: absolute;
+   bottom: -3160px;
+   left: 0px;
+   width: 100%;
+}
+h3 {
+   margin: 0;
+   padding: 0;
+   font-size: 0.5em
+}
+
+	</style>
+</head>
+<body>
+
+	<div id="container">
+	<div id="header">
+		<div class="title" onclick="location.href='https://ankh0916.github.io/ph5/'" style="cursor: pointer;">
+		<h4>Exhibition Archive</h4>
+		</div>
+		<div class="menu">
+			<ul>
+				<li onclick="location.href=''"><a href="#">site?</a></li>
+				<li onclick="location.href=''"><a href="#">archive</a></li>
+				<li onclick="location.href=''"><a href="#">gallery</a></li>
+				<li onclick="location.href='https://leekyuri.github.io/11_project1/'"><a href="#">FAQ</a></li>
+
+			</ul>
+		</div>
+	</div>
+
+	<section style="height:700px;">
+		<img class="white" src="white.png">
+		<img src="site.png" style="top: 500px; width: 400px; position: absolute; left: 50%; transform: translate(-50%,-50%);">
+	</section>
+	<section class="trans" style="background:url(obj7.jpg) fixed">
+		<h2><br><br>전시회 아카이빙 사이트를 만들게 된 이유<br><br></h2>
+	</section>
+	<section class="trans" style="background:url(obj6.jpg) fixed">
+		<p>전시회 아카이빙 사이트는 전시를 즐기기 위한 사람들만을 위한 사이트입니다. <br> 앞으로 있을 전시를 보다 쉽고 간편하게 알 수 있고 <br> 쉽게 접할 수 있도록 하기위해 만들어졌습니다. <br> 가족, 지인, 친구 사랑하는 사람들과 함께 문화생활을 즐기고 싶을 때, <br> 전시회 아카이빙 사이트를 방문하십시오.<br> 가장 최근에 있는 전시회부터 앞으로 예정되어있는 전시회까지 모두 알 수 있습니다.</p>
+	</section>
+	<section class="black">
+		<h2>사이트의 팁</h2>
+	</section>
+	<section class="trans" style="background:url(obj2.jpg) fixed;color:black">
+		<p><mark>메인화면에 있는 카운트다운을 잘 보십시오. <br> 오늘로부터 가장 최근에 있을 전시회의 오픈날을 카운트다운 하는 것입니다. <br> 전시회의 오픈날이 지나면 바로 다음 전시회의 카운트다운이 시작됩니다. <br> 보고싶었던 전시회를 놓치지 마세요 !</mark></p>
+	</section>
+	<section class="trans" style="background:url(obj3.jpg) fixed">
+		<h2>전시회의 정보를 보려면?</h2>
+	</section>
+	<section class="trans" style="background:url(obj3.jpg) fixed">
+		<p>site page의 옆동네 ticket page로 가보십시오. <br> 전시회의 정보가 자세하게 잘 나와있습니다. <br> 날짜부터 장소, 전시회 사이트로 바로 갈 수 있는 버튼까지 당신이 <br> 필요한 모든 것이 들어있는 페이지가 될 것입니다.</p>
+	</section>
+	<section>
+		<h2>! 이제 편하게 전시를 즐기세요 !</h2>
+	</section>
+	<section class="trans" style="background:url(obj4.jpg) fixed;color:white;">
+		<p>하나하나 일일히 찾아서 가기 힘드실겁니다. <br> 전시회 아카이빙 사이트가 모든 것을 해결해 드립니다. <br> 자신이 꼭 보고싶은 전시회만을 선택해 미리미리 기록해 놓는 것도 하나의 방법입니다. <br> 기억이 나지 않는다면 북마크를 해 두어 또 다시 이용하시면 됩니다.<br> 전시회를 검색하기 힘들고, 블로그에서 몇개를 찾지만 까먹기를 반복하셨을겁니다. <br> 이제는 조금의 스트레스도 받지 마시고 오직 즐기시기만 하십시오.</p>
+	</section>
+	 <div id="footer">
+      <center>
+         <h5>ⓒ2018 expber All rights reserved<br><br></h5>
+         <hr>
+      </center>
+   </div>
+   <div id="footer2">
+      <center>
+         <h3>PRIVACY POLICY　　　　　　　│　　　　　　　TERMS AND CONDITIONS　　　　　　　│　　　　　　　GET SUBSCRIBED<br><br>
+            이메일 문의　　　│　　　개인정보취급방침　　　│　　　권리 침해 신고　　　│　　　광고　　　│　　　모바일　　　│　　　 앱 설치<br><br><br><br>
+         </h3>
+      </center>
+   </div>   
+</body></html>
